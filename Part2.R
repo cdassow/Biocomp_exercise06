@@ -9,4 +9,4 @@ iris[which(iris[,2]>3.5),]
 setosa <- iris[iris$Species == "setosa",]
 write.csv(setosa, file = "./Biocomp_exercise06/setosa.csv",)
 virginica <- iris[iris$Species == "virginica",]
-aggregate(virginica$Petal.Length)
+aggregate.data.frame(virginica, by="Petal.Length", FUN = min)
