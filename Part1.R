@@ -1,6 +1,6 @@
 #R version of Unix's head function
-read.csv("wages.csv",
+wages = read.csv("./Biocomp_exercise06/wages.csv",
          sep = ",")
-x <-"""file that you are extracting lines from"""
-n <- """number of lines to be selected"""
-head (x, n=aL)
+
+head(wages)
+head(wages, n=7L)
