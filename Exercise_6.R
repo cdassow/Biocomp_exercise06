@@ -1,4 +1,13 @@
 #Part 1
+#Defines the variable 'file' with the file we want to use the head function on
+file <- read.csv(file="~/Desktop/Biocomp/Biocomp_exercise06/wages.csv")
+
+#Defines the number of lines that we want from the top of the file
+numbLines <- 5
+
+#Uses the head function
+head(file,numbLines)
+
 ####Part 2####
 
 #Load iris.csv
