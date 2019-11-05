@@ -1,4 +1,4 @@
-#creating data frame for every problem
+#creating data frame for every the rest of the question
 iris_frame = read.csv(file="./iris.csv", header=TRUE, sep=",")
 
 #----------------------------------------------------------------------------------#
