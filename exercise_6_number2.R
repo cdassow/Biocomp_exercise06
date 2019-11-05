@@ -28,3 +28,12 @@ print(iris_frame[which(iris_frame[,2]>3.5),])
 write.csv(iris_frame[which(iris_frame[,5]=="setosa"),], file="setosa.csv",row.names = FALSE)
 
 #----------------------------------------------------------------------------------#
+#mean of virginica pedal length
+print(mean((iris_frame[which(iris_frame[,5]=="virginica"),])[,3]))
+
+#min of virginica pedal length
+print(min((iris_frame[which(iris_frame[,5]=="virginica"),])[,3]))
+
+#max of virginica pedal length
+print(max((iris_frame[which(iris_frame[,5]=="virginica"),])[,3]))
+      
