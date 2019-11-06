@@ -1,6 +1,15 @@
 a <- read.csv(file.choose) 
 #select iris.csv
 
+#QUESTION 1#
+head_homemade<-function(x,y){
+  return(x[1:y,])
+}
+#usage: head_homemade(file, number of rows)
+head_homemade(a,3)
+
+
+#QUESTION 2#
 #PRINTS LAST 2 ROWS OF LAST 2 COLUMNS
 a[149:150,4:5]
 
