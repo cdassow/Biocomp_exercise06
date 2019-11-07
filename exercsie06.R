@@ -1,5 +1,7 @@
 # Biocomputing_Exercise6_Pierret
 
+irisdata <- read.csv("~/Biocomp_exercise06/iris.csv")
+
 # 1. R code that replicates the function we used in Unix - 
 variable1 <- irisdata[1:10,]
 
