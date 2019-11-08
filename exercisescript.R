@@ -21,7 +21,7 @@ number_virginica <- nrow(iris[iris$Species=="virginica",])
 number_setosa
 number_versicolor
 number_virginica
-#*****check that 50 is the answer to all
+
 
 #3. Get rows with Sepal.width>3.5
 iris[iris$Sepal.Width>3.5,]
@@ -35,4 +35,7 @@ virginica <- iris[iris$Species=="virginica",]
 mean_petal_length <- mean(virginica$Petal.Length)
 minimum_petal_length <- min(virginica$Petal.Length)
 maximum_petal_length <- max(virginica$Petal.Length)
+mean_petal_length
+minimum_petal_length
+maximum_petal_length
   
